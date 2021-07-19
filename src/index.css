@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(155, 89, 182, 0.7);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.content{
+  border-radius: 15px;
+	border: 3px solid #eee;
+	overflow: hidden;
+	position: relative;
+	height: 700px;
+	width: 340px;
+}
+
+.nav-bar{
+  background-color: #413b44;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  
+}
